@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="@dimen/_20sdp"
+    tools:context=".RiderRegistertwo">
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/r2_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/ic_baseline_navigate_before_24"
+            app:tint="@color/peach" />
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/rprofile"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_110sdp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            app:civ_border_color="@color/peach"
+            app:civ_border_width="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/profilephoto" />
+
+        <ImageView
+            android:id="@+id/redit"
+            android:layout_width="@dimen/_36sdp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.159"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/ic_baseline_camera_alt_24" />
+
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Name"
+            app:boxStrokeColor="@color/black"
+            app:boxStrokeWidthFocused="@dimen/_2sdp"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/black"
+            app:hintTextColor="@color/black"
+            app:startIconDrawable="@drawable/ic_baseline_person_24"
+            app:startIconTint="@color/black"
+            android:layout_marginTop="@dimen/_13sdp">
+
+          <com.google.android.material.textfield.TextInputEditText
+              android:id="@+id/rname"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:inputType="text"
+              android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Address"
+            app:boxStrokeColor="@color/black"
+            app:boxStrokeWidthFocused="@dimen/_2sdp"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/black"
+            app:hintTextColor="@color/black"
+            app:startIconDrawable="@drawable/ic_baseline_home_24"
+            app:startIconTint="@color/black">
+
+          <com.google.android.material.textfield.TextInputEditText
+              android:id="@+id/raddress"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:inputType="textMultiLine"
+              android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/dgender"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/Gender"
+              android:textColor="@color/black"
+              android:textSize="@dimen/_16ssp"  />
+
+          <RadioGroup
+              android:id="@+id/RadioGroup"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+              android:layout_marginTop="@dimen/_10sdp"
+              android:backgroundTint="@color/light_blue"
+              android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingEnd="@dimen/_20sdp"
+                android:text="Female"
+                android:textSize="@dimen/_14ssp" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingEnd="@dimen/_20sdp"
+                android:text="Male"
+                android:textSize="@dimen/_14ssp" />
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/_20sdp"
+                android:text="Other"
+                android:textSize="@dimen/_14ssp" />
+          </RadioGroup>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_2sdp"
+                android:background="@color/black"
+                android:layout_marginTop="@dimen/_15sdp">
+
+            </View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/select_your_age"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16ssp"/>
+
+          <DatePicker
+              android:id="@+id/bDate"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:calendarViewShown="false"
+              android:datePickerMode="spinner"
+              android:spinnersShown="true" />
+
+
+
+
+
+        </LinearLayout>
+
+          
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Contact_number"
+            app:boxStrokeColor="@color/black"
+            app:boxStrokeWidthFocused="@dimen/_2sdp"
+            app:hintTextColor="@color/black"
+            app:startIconDrawable="@drawable/ic_baseline_local_phone_24"
+            app:startIconTint="@color/black"
+            android:layout_marginTop="@dimen/_10sdp">
+
+          <com.google.android.material.textfield.TextInputEditText
+              android:id="@+id/rphonenumber"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:inputType="number"
+              android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/rregisterbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:backgroundTint="@color/black"
+            android:textSize="@dimen/_16ssp"
+            app:cornerRadius="@dimen/_10sdp"
+            android:text="@string/register" />
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+
+  </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

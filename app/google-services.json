@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "299208188926",
+    "project_id": "studymate-d6f22",
+    "storage_bucket": "studymate-d6f22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299208188926:android:11ad010e2fbe47be3d56af",
+        "android_client_info": {
+          "package_name": "com.example.StudyMate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299208188926-4hnhqbfscl0nkqmart7i75llut45lklo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9r7LBqZ_rhntuKVSxZOj1sTh_QNlU0KQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299208188926-4hnhqbfscl0nkqmart7i75llut45lklo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

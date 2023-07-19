@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">StudyMate</string>
+
+    <!--Strings for On Boarding Screens -->
+    <!--Titles-->
+    <!--    <string name="first_slide_title">Search Your Drive Mate</string>-->
+    <!--    <string name="second_slide_title">Save Fuel</string>-->
+    <!--    <string name="third_slide_title">Split the fare</string>-->
+    <!--    <string name="fourth_slide_title">Ride with your Colleagues</string>-->
+
+    <!--    &lt;!&ndash;Descriptions &ndash;&gt;-->
+    <!--    <string name="first_slide_desc">You can look for drivers close by or in the chosen city.-->
+    <!--        We\'ll show you the drivers that match your search.</string>-->
+    <!--    <string name="second_slide_desc">Improve fuel efficiency while saving the environment.</string>-->
+    <!--    <string name="third_slide_desc">Share the fare with your fellow Ridemates</string>-->
+    <!--    <string name="fourth_slide_desc">Find your coworkers Take the wheel or ride along.</string>-->
+
+    <!--    &lt;!&ndash;Buttons&ndash;&gt;-->
+    <!--    <string name="skip_btn">Skip</string>-->
+    <!--    <string name="next_btn">Next</string>-->
+    <!--    <string name="get_started">Get started</string>-->
+    <string name="Welcome">Welcome to Ridemate</string>
+    <string name="User">User</string>
+    <string name="Organization">Organization</string>
+    <string name="Login">Login</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="Confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="whoami">I am a</string>
+    <string name="Driver">Driver</string>
+    <string name="Rider">Rider</string>
+    <string name="DriverReg">Driver Register</string>
+    <string name="RiderReg">Rider Register</string>
+    <string name="VehicleReg">Register Vehicle</string>
+    <string name="next">Next</string>
+    <string name="Name">Enter Name</string>
+    <string name="Address">Enter Address</string>
+    <string name="Gender">Gender</string>
+    <string name="Company">Enter Company</string>
+    <string name="Contact_number">Enter Contact Number</string>
+    <string name="otp_code_text">Co\nde</string>
+    <string name="otp_verification_text">Verification</string>
+    <string name="otp_description_text">Enter one time password sent on\n91+1234567890</string>
+    <string name="VehicleName">Enter Vehicle Name</string>
+    <string name="VehicleNumber">Enter Vehicle Number</string>
+    <string name="VehicleType">Vehicle Type</string>
+    <string name="FuelType">Fuel Type</string>
+    <string name="VehicleCapacity">Vehicle Capacity</string>
+    <string name="phone_verification_text">Phone Verification</string>
+    <string name="phone_verification_desc">We need to verify your phone number\nbefore getting started.</string>
+    <string name="send_the_code">Send the code</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="edit_phone_number">Edit</string>
+    <string name="send_again">Send Again</string>
+    <string name="company_login">Company\nLogin</string>
+    <string name="company_register">Company\nRegister</string>
+    <string name="state">Enter State</string>
+    <string name="city">Enter City</string>
+    <string name="company_details">Company\nDetails</string>
+    <string name="company_verification">Company Verification</string>
+    <string name="phone_email_verification">We need to verify your email/phone
+        number\nbefore getting started.</string>
+    <string name="enter_phone_email">Email/Phone number</string>
+    <string name="enter_one_time_password">Enter One Time Password</string>
+    <string name="select_your_age">Select Your Age</string>
+    <string name="about_us">One stop destination where required hand written notes are available for students.\n\n\nThis application is developed by Vaghela Dhruvi, Vani Singh and Helly Rathod.</string>
+    <string name="q1">How to upload notes ?</string>
+    <string name="a1">Navigate to upload section from bottom navigation menu and click on plus button and add all the necessary details to upload the document. </string>
+    <string name="q2">How to save any note ?</string>
+    <string name="a2">Click on bookmark and then navigate to archive section to view saved notes.</string>
+    <string name="q3">Can we update account details ? </string>
+    <string name="a3">Yes, you can update account details from account section.</string>
+    <string name="q4">How to view another department notes ? </string>
+    <string name="a4">You can notes of another department from page.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

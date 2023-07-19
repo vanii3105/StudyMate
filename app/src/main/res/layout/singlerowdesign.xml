@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="5dp"
+        android:elevation="10dp"
+        android:id="@+id/card">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/peach"
+            android:src="@drawable/ic_baseline_picture_as_pdf_24"/>
+
+            <LinearLayout
+                android:id="@+id/ly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/img1">
+
+                <TextView
+                    android:id="@+id/topic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dummytopic"
+                    android:layout_marginTop="8dp"
+                    android:textSize="28dp"
+                    android:paddingLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/sem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dummysem"
+                    android:layout_marginTop="8dp"
+                    android:layout_alignBottom="@+id/topic"
+                    android:textSize="19dp"
+                    android:paddingLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/dept"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dummydept"
+                    android:layout_marginTop="8dp"
+                    android:layout_alignBottom="@+id/topic"
+                    android:textSize="19dp"
+                    android:paddingLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/subject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dummysubject"
+                    android:layout_marginTop="8dp"
+                    android:layout_alignBottom="@+id/subject"
+                    android:textSize="26dp"
+                    android:paddingLeft="20dp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/save"
+                android:layout_width="59dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="55dp"
+                android:layout_toRightOf="@+id/ly"
+                android:paddingLeft="10dp"
+                app:tint="@color/peach"
+                android:src="@drawable/ic_bookmark_white" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto">-->
+<!--<LinearLayout-->
+<!--    android:padding="@dimen/_10sdp"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content">-->
+<!--    <ImageView-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_width="@dimen/_100sdp"-->
+<!--        android:layout_height="@dimen/_100sdp"-->
+<!--        android:id="@+id/img1"-->
+<!--        android:src="@drawable/ic_baseline_picture_as_pdf_24"-->
+<!--        android:background="@color/peach"/>-->
+<!--    <LinearLayout-->
+<!--        android:layout_marginStart="@dimen/_10sdp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Subject Topic"-->
+<!--            android:id="@+id/topic"-->
+<!--            android:textSize="@dimen/_22ssp"-->
+<!--            android:textStyle="bold"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Grade"-->
+<!--            android:id="@+id/grade"-->
+<!--            android:textSize="@dimen/_15ssp"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Subject Name"-->
+<!--            android:id="@+id/subject"-->
+<!--            android:textSize="@dimen/_20ssp"/>-->
+
+<!--    </LinearLayout>-->
+<!--    <ImageView-->
+<!--        android:layout_marginStart="@dimen/_10sdp"-->
+<!--        android:layout_width="@dimen/_30sdp"-->
+<!--        android:layout_height="@dimen/_30sdp"-->
+<!--        android:src="@drawable/ic_bookmark_white"-->
+<!--        app:tint="@color/peach"-->
+<!--        android:layout_gravity="center"/>-->
+<!--</LinearLayout>-->
+
+
+<!--</androidx.cardview.widget.CardView>-->
+
+
+
+
+
