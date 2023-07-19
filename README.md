@@ -1,5 +1,5 @@
 # StudyMate
-StudyMate is an android based academic project created by [Dhruvi Vaghela](https://github.com/dhruvi2209), [Vani Singh](https://github.com/vanii3105) and [Helly Rathod](https://github.com/Heyllyyy-01).
+StudyMate is an android based academic project created by [Vani Singh](https://github.com/vanii3105), [Dhruvi Vaghela](https://github.com/dhruvi2209) and [Helly Rathod](https://github.com/Heyllyyy-01).
 
 Study Mate Application aims to address the daily problem of making notes at times when the event is fast-paced and you do not have time to pull out your pen and paper.
 One-Stop-App for subject specific study material.
